@@ -69,16 +69,18 @@ nav ul li:hover {
 .about{
     padding: 5rem 5rem;
     background-color: #f1f1f1;
+}
+.about> h2{
+    padding-bottom: .5em;
+}
+.about-text{
     display: flex;
     align-items: center;
 }
-.about-text{
+.about-text> p{
     text-align: justify;
     word-wrap: break-word;
     padding-right: 2rem;
-}
-.about-text> h2{
-    padding-bottom: 1em 0;
 }
 
 .about-btn button{
